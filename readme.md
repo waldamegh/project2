@@ -33,6 +33,7 @@ Give the user the ability to pull from a multiple news sources. Here are two new
 
 - [News API](https://newsapi.org/)
 - [The New York Times](https://developer.nytimes.com/) 
+- [The Guardian Open Platform](https://open-platform.theguardian.com/) 
 
 
 You should also feel free to use other news APIs; however, you will find that many APIs that do not support either [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) or [JSONp](https://en.wikipedia.org/wiki/JSONP) will result in a cross-domain restriction error ("No 'Access-Control-Allow-Origin' header is present...") in the browser. To get around this, you can use the following proxy server to filter your API requests.
